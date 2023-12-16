@@ -5,13 +5,16 @@ MMSyn is a multimodal deep learning framework for prediction of synergistic drug
 
 ## Data
 cell lines
-* ONeil_31_cell_23316_dim_CNV.csv - DNA copy number data for cell lines
-* ONeil_31_cell_47838_dim_genex.csv - Gene expression data of cell lines
 * ONeil_31_gsva_1329_dim.csv - pathway scores of cell lines
+* [gene expressin data](https://depmap.org/portal/download/all/) is downloaded from CCLE (the Cancer Cell Line Encyclopedia)
+* [DNA copy number data](https://depmap.org/portal/download/all/) is downloaded from CCLE (the Cancer Cell Line Encyclopedia)
+
 drug
 * 38_drug_smiles.csv - SMILES (Simplified molecular input line entry system) of drugs
+
 dataset
-* drug_pair_cell_line_triple.csv -  the effects of 538 pairwise drug combinations in 30 cell lines 
+* drug_pair_cell_line_triple.csv -  the effects of 538 pairwise drug combinations in 30 cell lines
+
 
 ## Environment Requirement
 The code has been tested running under Python 3.7. The required package are as follows:
